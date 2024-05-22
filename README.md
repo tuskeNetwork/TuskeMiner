@@ -12,6 +12,20 @@ xmrig.exe -o 127.0.0.1:20241 -a rx/0 -u "Tuske Mainnet Address" --daemon
 
 (Replace "Tuske Mainnet Address" with your own address)
 
+## Pool Mining
+
+xmrig.exe -o mine.tuske.network:3333 -a rx/0 -u "Tuske Mainnet Address" -p x -k
+
+(Replace "Tuske Mainnet Address" with your own address)
+
+If you want to set the number of threads yourself, you can use the -t parameter
+For example 
+-t 10 
+means using 10 threads
+
+You can find pools that support TUSKE here:
+https://miningpoolstats.stream/tuske
+
 ## Mining backends
 - **CPU** (x86/x64/ARMv7/ARMv8)
 - **OpenCL** for AMD GPUs.

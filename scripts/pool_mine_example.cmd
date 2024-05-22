@@ -16,5 +16,5 @@
 :: Smaller pools also often have smaller fees/payout limits.
 
 cd /d "%~dp0"
-xmrig.exe -o pool.tuske.network:3333 -a rx/0 -u TuskeMdmH54h8YoSAjxPRC6fCHWHWui5GTcUamcp3cuhZmHLi3eK1LsjJk6vB9dmvKjQ6Fd71NjnfKkuY1qbv3UW4CHQaEeCABL2k -p x -k
+xmrig.exe -o mine.tuske.network:3333 -a rx/0 -u TuskeMdmH54h8YoSAjxPRC6fCHWHWui5GTcUamcp3cuhZmHLi3eK1LsjJk6vB9dmvKjQ6Fd71NjnfKkuY1qbv3UW4CHQaEeCABL2k -p x -k
 pause
